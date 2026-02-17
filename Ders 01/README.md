@@ -1,41 +1,74 @@
-# 🎯 MAKİNE ÖĞRENMESİ - DERS 01
+<div align="center">
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=40&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=DERS+01+-+Makine+%C3%96%C4%9Frenmesine+Giri%C5%9F;Veriden+Karara%3A+Stratejik+Bir+Giri%C5%9F;YBS+Perspektifinden+ML+D%C3%BCnyas%C4%B1;Problem+%C3%87%C3%B6zme+Sanat%C4%B1+%F0%9F%8E%AF" alt="Typing SVG" />
+
+<br/>
+
+# 🚀 **MAKİNE ÖĞRENMESİ - DERS 01** 
+## 🧠 Veriden Karara: Stratejik Bir Giriş
+
+<br/>
+
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Scikit-Learn](https://img.shields.io/badge/Scikit_Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
+
+[![Machine Learning](https://img.shields.io/badge/Machine_Learning-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
+[![Data Science](https://img.shields.io/badge/Data_Science-412991?style=for-the-badge&logo=anaconda&logoColor=white)](https://www.anaconda.com/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-orange.svg?style=for-the-badge&logo=databricks&logoColor=white)](https://www.databricks.com/)
+
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://seaborn.pydata.org/)
+[![CRISP-DM](https://img.shields.io/badge/CRISP_DM-Methodology-326CE5?style=for-the-badge)]()
+[![YBS Perspective](https://img.shields.io/badge/YBS-Perspective-success.svg?style=for-the-badge)]()
+
+<br/>
+
+### 💎 **Ders 01 Özellikleri**
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Hafta-01-blue?style=flat-square" /><br/>
+      <b>Kavramsal Temel</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/CEO-Senaryoları-green?style=flat-square" /><br/>
+      <b>İş Odaklı Yaklaşım</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/CRISP_DM-Metodoloji-orange?style=flat-square" /><br/>
+      <b>Sistematik Çerçeve</b>
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/YBS-Perspektifi-red?style=flat-square" /><br/>
+      <b>Stratejik Düşünce</b>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+### **🌟 Neden Bu Ders Özel?**
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════════════════════╗
-║                                                                              ║
-║   ██████╗ ███████╗██████╗ ███████╗     ██████╗  ██╗                         ║
-║   ██╔══██╗██╔════╝██╔══██╗██╔════╝    ██╔═████╗███║                         ║
-║   ██║  ██║█████╗  ██████╔╝███████╗    ██║██╔██║╚██║                         ║
-║   ██║  ██║██╔══╝  ██╔══██╗╚════██║    ████╔╝██║ ██║                         ║
-║   ██████╔╝███████╗██║  ██║███████║    ╚██████╔╝ ██║                         ║
-║   ╚═════╝ ╚══════╝╚═╝  ╚═╝╚══════╝     ╚═════╝  ╚═╝                         ║
-║                                                                              ║
-║          VERİDEN KARARA: STRATEJİK BİR GİRİŞ                                ║
-║                                                                              ║
-╚══════════════════════════════════════════════════════════════════════════════╝
-```
+| 🎯 Özellik | 📝 Açıklama |
+|:-----------|:-----------|
+| ✨ **YBS Perspektifi** | Teknik değil, stratejik düşünce odaklı içerik |
+| 🎯 **Problem Çözme Odaklı** | Algoritmalar değil, iş problemlerini çözme yaklaşımı |
+| 💼 **Gerçek Dünya Senaryoları** | CEO soruları, yönetici toplantıları, iş kararları |
+| 🏆 **CRISP-DM Metodolojisi** | Endüstri standardı proje yönetim çerçevesi |
+| 📊 **Kavramsal Hiyerarşi** | AI ⊃ ML ⊃ DL ilişkisinin net anlaşılması |
+| 🔥 **Sezgiden Öngörüye** | Veri odaklı karar verme transformasyonu |
 
 </div>
 
-<div align="center">
-
-### 🧠 **Makine Öğrenmesine YBS Perspektifinden Bakış**
-
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Conceptual-green.svg?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
-[![AI Strategy](https://img.shields.io/badge/AI-Strategy-purple.svg?style=for-the-badge&logo=artificial-intelligence&logoColor=white)](https://ai.google/)
-[![Business Intelligence](https://img.shields.io/badge/Business-Intelligence-orange.svg?style=for-the-badge&logo=databricks&logoColor=white)](https://www.databricks.com/)
-
-[![Status](https://img.shields.io/badge/Status-Conceptual%20Foundation-success.svg?style=for-the-badge)]()
-[![Level](https://img.shields.io/badge/Level-Strategic%20Thinking-red.svg?style=for-the-badge)]()
-[![Type](https://img.shields.io/badge/Type-Theory%20%26%20Vision-blue.svg?style=for-the-badge)]()
-[![Duration](https://img.shields.io/badge/Duration-Week%201-yellow.svg?style=for-the-badge)]()
+<br/>
 
 ---
-
-### 🌟 **Teknik Değil, Stratejik: YBS'ciler İçin ML Felsefesi**
 
 </div>
 
@@ -60,6 +93,29 @@
 12. [✨ Kapanış ve Öğrenme Çıktıları](#-kapanış-ve-öğrenme-çıktıları)
 
 </details>
+
+---
+
+##  **İçerik Navigasyonu**
+
+<div align="center">
+
+| 📌 Bölüm | 🎯 İçerik |
+|:--------:|:----------|
+| **[🎯 Genel Bakış](#-genel-bakış)** | Dersin Özü ve Temel Yaklaşım |
+| **[🎬 CEO'nun Sorusu](#-dersin-açılışı-ceonun-sorusu)** | İş Odaklı Giriş Senaryosu |
+| **[🧠 Sezgiden Öngörüye](#-sezgiden-öngörüye-geçiş)** | Karar Verme Paradigma Değişimi |
+| **[🧩 Kavramsal Hiyerarşi](#-kavramsal-hiyerarşi-ai--ml--dl)** | AI ⊃ ML ⊃ DL İlişkisi |
+| **[🧱 Stratejik Cevap](#-stratejik-cevabın-3-temel-taşı)** | 3 Temel Taş Yaklaşımı |
+| **[📺 Netflix Örneği](#-gerçek-dünya-örneği-netflix)** | Gerçek Dünya Uygulaması |
+| **[🔍 ML Türleri](#-makine-öğrenmesi-türleri)** | Denetimli, Denetimsiz, Pekiştirmeli |
+| **[🤖 Kod Felsefesi](#-kod-bir-amaç-değildir)** | Araç vs. Amaç Farkındalığı |
+| **[🧭 CRISP-DM](#-crisp-dm-ybscinin-yol-haritası)** | Metodoloji ve Yol Haritası |
+| **[📚 Veri Kaynakları](#-veri-nerede-kaggle-ve-uci)** | Kaggle, UCI ve Diğerleri |
+| **[🎓 Ders Bilgileri](#-ders-bilgileri-ve-akademisyenler)** | Ders Ekibi ve İletişim |
+| **[✨ Öğrenme Çıktıları](#-kapanış-ve-öğrenme-çıktıları)** | Dersin Kazanımları |
+
+</div>
 
 ---
 
@@ -105,7 +161,7 @@ Bu ders boyunca sürekli olarak şu soruya cevap aradık:
 ```
 ┌────────────────────────────────────────────────────────────────┐
 │                                                                │
-│   "Bir YBS yöneticisi olarak,                                  │
+│   "Bir YBS uzmanı olarak,                                      │
 │    makine öğrenmesi bana NE KAZANDIRIR?"                       │
 │                                                                │
 │   Cevap:                                                       │
@@ -178,6 +234,96 @@ graph TD
 
 </div>
 
+<br/>
+
+<div align="center">
+
+### 📖 **Dersin Felsefesi**
+
+*Bu derste makine öğrenmesini **algoritmalar üzerinden değil**, **problem çözme perspektifi** üzerinden ele alıyoruz.*  
+*Veriden değere, algoritmadan anlama geçişi yapıyoruz. Matematiksel temelleri anlıyor,*  
+*ardından bunları gerçek dünya problemlerine uyguluyoruz.*
+
+**🎓 CRISP-DM Metodolojisi** ile iş problemi tanımından model dağıtımına kadar tüm süreci kapsıyoruz.
+
+</div>
+
+---
+
+<br/>
+
+## ✨ **Premium Özellikler ve Avantajlar**
+
+<div align="center">
+
+### 💎 **Endüstri Standardında Eğitim Deneyimi**
+
+</div>
+
+<br/>
+
+<div align="center">
+
+| 🏆 **Özellik** | 📊 **Değer** | 💡 **Açıklama** |
+|:---------------|:-------------|:----------------|
+| **📅 Ders Konumu** | `Hafta 1` | Makine öğrenmesinin kavramsal temelleri |
+| **🎯 Kapsanan Kavram** | `15+ Konsept` | AI, ML, DL, CRISP-DM, Öğrenme türleri |
+| **📦 Gerçek Senaryolar** | `CEO Toplantısı` | E-ticaret, müşteri kaybı, karar verme senaryoları |
+| **📚 Metodoloji** | `CRISP-DM` | Endüstri standardı proje yönetim çerçevesi |
+| **💼 İş Odaklı Yaklaşım** | `YBS Perspektifi` | Stratejik düşünce ve iş değeri yaratma |
+| **🎨 Görsel Öğrenme** | `Mermaid Diagramları` | Kavramsal ilişkileri görselleştirme |
+| **📈 Gerçek Dünya Örnekleri** | `Netflix, Amazon` | Endüstri liderlerinden case study'ler |
+| **🔬 Öğrenme Paradigmaları** | `3 Tür` | Denetimli, Denetimsiz, Pekiştirmeli öğrenme |
+| **🗄️ Veri Kaynakları** | `Kaggle & UCI` | Profesyonel veri setlerine erişim rehberi |
+| **📊 Karşılaştırmalı Analiz** | `Tablo & Grafikler` | Sezgi vs. Veri karşılaştırmaları |
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### 🎯 **Bu Dersin Öğrenme Yaklaşımı**
+
+</div>
+
+<table>
+<tr>
+<td width="33%" align="center">
+
+### 📖 **1. Kavramsal Temel**
+
+İş dünyasından başlayarak  
+ML'nin stratejik değerini  
+anlamak
+
+**→ Neden ML'e ihtiyacım var?**
+
+</td>
+<td width="33%" align="center">
+
+### 💡 **2. Metodolojik Çerçeve**
+
+CRISP-DM ile sistematik  
+proje yönetimi ve  
+problem çözme
+
+**→ Nasıl başlayacağım?**
+
+</td>
+<td width="33%" align="center">
+
+### 🌍 **3. Gerçek Dünya Örnekleri**
+
+Netflix, Amazon gibi  
+şirketlerin ML  
+uygulamaları
+
+**→ Kimler ne yapıyor?**
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -2780,7 +2926,219 @@ Canlıya almadan sonra:
 
 ---
 
-## 📚 VERİ NEREDE? KAGGLE VE UCI
+<br/>
+
+## 📚 **14 Haftalık Kapsamlı Müfredat**
+
+<div align="center">
+
+### 🎓 **Başlangıçtan Ustalığa Sistematik Yolculuk**
+
+*Her hafta hem teorik temeller hem pratik uygulamalar*
+
+</div>
+
+<br/>
+
+> **Not**: Bu bölüm, tüm dönem boyunca işlenecek konuların genel bir özetini içermektedir. Her haftanın detaylı içeriği ilgili hafta klasöründe bulunmaktadır.
+
+---
+
+### **📅 Hafta 1: Veriden Değere - Makine Öğrenmesinin Kavramsal Mimarisi**
+
+<table>
+<tr>
+<td width="70%">
+
+**🎯 İçerik**
+
+Makine öğrenmesini algoritmalar üzerinden değil, **problem çözme perspektifi** üzerinden ele alıyoruz. Bu hafta ML'nin büyük resmini görüyoruz.
+
+**📖 Konular:**
+- ✅ **CRISP-DM Metodolojisi**: İş probleminden model dağıtımına sistematik yaklaşım
+- ✅ **Yapay Zeka vs Makine Öğrenmesi**: Kavramsal farklar ve ilişkiler
+- ✅ **Öğrenme Paradigmaları**: Denetimli, Denetimsiz ve Pekiştirmeli öğrenme
+- ✅ **ML Proje Yaşam Döngüsü**: Data collection → Model development → Deployment
+- ✅ **İş Problemi Tanımlama**: Hangi problemler ML ile çözülebilir?
+
+**💡 Çıktılar:**
+- ML projelerinin genel yapısını anlama
+- Problem-çözüm eşleştirmesi yapabilme
+- Proje planı oluşturabilme
+
+</td>
+<td width="30%" align="center">
+
+**🏷️ Etiketler**
+
+<br/>
+
+`CRISP-DM`
+
+`Yapay Zeka`
+
+`ML Paradigmaları`
+
+`Problem Tanımlama`
+
+`Proje Planlama`
+
+<br/>
+
+**📊 Seviye**
+
+🟢 **Başlangıç**
+
+</td>
+</tr>
+</table>
+
+---
+
+## � **End-to-End Projeler & Portfolyo**
+
+<div align="center">
+
+### 🚀 **Gerçek Dünya Projeleriyle Portföy Oluşturun**
+
+</div>
+
+<br/>
+
+### **📌 Ara Proje (Hafta 6-7)**
+
+<table>
+<tr>
+<td width="70%">
+
+**🎯 Proje Kapsamı:**
+- İlk 5 haftada öğrenilen konuların entegrasyonu
+- Veri toplama, EDA, preprocessing ve regression modelleme
+- Gerçek veya Kaggle veri seti kullanımı
+
+**💡 Örnek Proje Konuları:**
+- 📈 **Ev Fiyat Tahmini**: Regression ile emlak fiyat tahmini
+- 💰 **Maaş Prediction**: İş deneyimi ve education level ile maaş tahmini
+- 📊 **Satış Forecasting**: Time series regression ile satış tahminleme
+- 🚗 **Araç Değer Tahmini**: Özellikleinden yola çıkarak araç fiyatı
+
+**📝 Beklenen Çıktılar:**
+- Jupyter Notebook ile detaylı analiz
+- GitHub repository
+- 10-15 dakikalık sunum
+- Teknik dokümantasyon
+
+</td>
+<td width="30%" align="center">
+
+**🎖️ Değerlendirme**
+
+<br/>
+
+`Veri Analizi`  
+**%25**
+
+`Preprocessing`  
+**%20**
+
+`Model Quality`  
+**%30**
+
+`Sunum`  
+**%25**
+
+<br/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+### **📌 Final Projesi (Hafta 13-14)**
+
+<table>
+<tr>
+<td width="70%">
+
+**🎯 Proje Kapsamı:**
+- Tüm dönem boyunca öğrenilen konuların entegrasyonu
+- Problem tanımından deployment'a end-to-end çözüm
+- Production-ready kod ve sistem
+
+**💡 Beklenen Bileşenler:**
+
+**1. Problem Definition & Business Value**
+- Çözülen gerçek dünya problemi
+- İş değeri ve impact analizi
+- Success metrics tanımı
+
+**2. Data Pipeline**
+- Veri toplama stratejisi
+- Data cleaning ve preprocessing
+- Feature engineering
+
+**3. Model Development**
+- Multiple model comparison
+- Hyperparameter tuning
+- Cross-validation strategy
+
+**4. Deployment**
+- FastAPI REST API veya
+- Streamlit interactive dashboard
+- User-friendly interface
+
+**5. Documentation & Presentation**
+- Technical documentation
+- GitHub README
+- 20 dakikalık profesyonel sunum
+
+</td>
+<td width="30%" align="center">
+
+**🎖️ Değerlendirme**
+
+<br/>
+
+`Problem & Value`  
+**%15**
+
+`Data Pipeline`  
+**%20**
+
+`Model Quality`  
+**%25**
+
+`Deployment`  
+**%20**
+
+`Presentation`  
+**%20**
+
+<br/>
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 🎯 **Örnek Final Proje Fikirleri**
+
+</div>
+
+| 🎨 Kategori | 💡 Proje Fikirleri | 🛠️ Teknikler |
+|:-----------|:------------------|:-------------|
+| **🏪 E-Ticaret** | • Customer churn prediction<br/>• Product recommendation<br/>• Sales forecasting | Classification, Clustering,<br/>Time Series |
+| **💹 Finans** | • Kredi risk analizi<br/>• Hisse senedi tahmini<br/>• Fraud detection | Classification, Regression,<br/>Anomaly Detection |
+| **🏥 Sağlık** | • Hastalık tahmini<br/>• Patient readmission<br/>• Medical analysis | Classification, Regression |
+| **🏘️ Emlak** | • Ev fiyat tahmini<br/>• Rental optimization<br/>• Location analysis | Regression, Clustering |
+
+---
+
+## �📚 VERİ NEREDE? KAGGLE VE UCI
 
 ### 🎯 **Giriş: Veri Yoksa ML de Yok**
 
@@ -3372,6 +3730,78 @@ graph TD
 
 ---
 
+<br/>
+
+## 🛠️ **Kullanılan Teknolojiler ve Araçlar**
+
+<div align="center">
+
+### 💻 **Ders 01 İçin Temel Araçlar**
+
+*Bu hafta kullanacağınız araçlar ve kavramlar*
+
+</div>
+
+<br/>
+
+### **📋 Gerekli Araçlar**
+
+<div align="center">
+
+| 🛠️ Araç | 📝 Kullanım | 🎯 Bu Derste |
+|:--------|:-----------|:-------------|
+| **Zihinsel Çerçeve** | Kavramsal düşünme | AI, ML, DL anlayışı |
+| **CRISP-DM** | Metodoloji | Proje yönetim çerçevesi |
+| **İş Anlayışı** | YBS perspektifi | Problem tanımlama |
+| **Not Alma** | Dokümantasyon | Kavramları kaydetme |
+
+</div>
+
+<br/>
+
+### **🔮 İlerleyen Haftalarda**
+
+<table>
+<tr>
+<td width="50%">
+
+#### **Hafta 2+: Teknik Araçlar**
+
+- Python 3.11+
+- NumPy, Pandas
+- Matplotlib, Seaborn
+- Jupyter Notebook
+- Git & GitHub
+
+</td>
+<td width="50%">
+
+#### **Hafta 5+: ML Kütüphaneleri**
+
+- Scikit-learn
+- Model evaluation
+- Cross-validation
+- Hyperparameter tuning
+- Pipeline oluşturma
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+<div align="center">
+
+### 💡 **Bu Hafta Odak: Kavramsal Temel**
+
+*Hafta 1'de kod yazmıyoruz, düşünme şeklimizi inşa ediyoruz.*
+
+**Algoritma öğrenmek ≠ Makine öğrenmesi yapmak**
+
+</div>
+
+---
+
 ## 🎓 DERS BİLGİLERİ VE AKADEMİSYENLER
 
 ### 📚 **Ders Hakkında**
@@ -3515,6 +3945,79 @@ Bu dersi başarıyla tamamlayan öğrenciler:
 ### 📄 **Lisans**
 
 Bu ders materyali eğitim amaçlı hazırlanmıştır. Kaynak göstermek kaydıyla kullanılabilir.
+
+---
+
+<br/>
+
+## 📜 **Akademik Referanslar ve Kaynaklar**
+
+<div align="center">
+
+### 📚 **Önerilen Kaynaklar ve İleri Öğrenim**
+
+</div>
+
+<br/>
+
+### **📖 Temel Kitaplar**
+
+| 📚 Kitap | ✍️ Yazar | 🎯 Seviye | 💡 Neden Okunmalı? |
+|:---------|:---------|:----------|:-------------------|
+| **Hands-On Machine Learning** | Aurélien Géron | 🟢 Başlangıç-Orta | Pratik odaklı, kod örnekleri bol, sektör standardı |
+| **Introduction to Statistical Learning** | James, Witten, Hastie, Tibshirani | 🟡 Orta | İstatistiksel temeller, R ve Python kodları |
+| **Python Data Science Handbook** | Jake VanderPlas | 🟢 Başlangıç | NumPy, Pandas, Matplotlib detaylı anlatım |
+| **Machine Learning Yearning** | Andrew Ng | 🟢 Başlangıç | Strateji, karar verme, proje yönetimi |
+
+### **🌐 Online Kaynaklar**
+
+| 🌍 Platform | 📝 İçerik | 🔗 Link |
+|:-----------|:----------|:--------|
+| **Kaggle Learn** | Interactive ML tutorials | [kaggle.com/learn](https://www.kaggle.com/learn) |
+| **Fast.ai** | Practical deep learning | [fast.ai](https://www.fast.ai/) |
+| **Coursera - Andrew Ng** | ML Specialization | [coursera.org/ml](https://www.coursera.org/specializations/machine-learning-introduction) |
+| **StatQuest** | İstatistik ve ML videoları | [YouTube](https://www.youtube.com/@statquest) |
+| **Scikit-learn Docs** | Official documentation | [scikit-learn.org](https://scikit-learn.org/stable/) |
+
+### **🎬 YouTube Kanalları**
+
+- **StatQuest with Josh Starmer**: Karmaşık konuları basitleştiren harika anlatım
+- **3Blue1Brown**: Matematiksel sezgi ve görselleştirme
+- **Sentdex**: Python ve ML pratik uygulamalar
+- **Data School**: Pandas ve scikit-learn tutorials
+
+---
+
+<div align="center">
+
+### 🌟 **"Makine Öğrenmesi Sadece Algoritmalar Değil, Problemleri Çözme Sanatıdır"**
+
+<br/>
+
+**DERS 01 - Makine Öğrenmesine Giriş**  
+*YBS3259 - 2025-2026 Bahar Dönemi*
+
+<br/>
+
+---
+
+<br/>
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Poppins&size=24&duration=3000&pause=1000&color=3B82F6&center=true&vCenter=true&width=900&lines=Veriden+De%C4%9Fere%2C+Bilgiden+Anlama;Birlikte+%C3%96%C4%9Frenelim%2C+Birlikte+Geli%C5%9Felim;Makine+%C3%96%C4%9Frenmesi+Yolculu%C4%9Funuza+Ba%C5%9Flay%C4%B1n!" alt="Closing Banner" />
+
+<br/>
+
+### **🚀 Başarılarınızın Devamını Dileriz!**
+
+<br/>
+
+<sub>⚡ **Pro Tip:** README'yi star'layın ⭐ ki daha sonra kolayca bulabilesiniz!</sub>
+
+<br/>
+
+<sup>Made with 💙 by YBS3259 Team | © 2026 Bandırma Onyedi Eylül Üniversitesi</sup>
+
+</div>
 
 ---
 
