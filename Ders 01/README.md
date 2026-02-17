@@ -1,5 +1,7 @@
 # 🎯 MAKİNE ÖĞRENMESİ - DERS 01
 
+<div align="center">
+
 ```
 ╔══════════════════════════════════════════════════════════════════════════════╗
 ║                                                                              ║
@@ -14,6 +16,8 @@
 ║                                                                              ║
 ╚══════════════════════════════════════════════════════════════════════════════╝
 ```
+
+</div>
 
 <div align="center">
 
@@ -188,7 +192,7 @@ graph TD
 ║                                                                  ║
 ║   📍 YER:  Üst Düzey Yönetim Toplantı Odası                     ║
 ║   ⏰ SAAT: 09:00 - Pazartesi Sabahı                             ║
-║   👥 KİM:  CEO, CFO, CMO, CTO ve Siz (YBS Uzmanı)          ║
+║   👥 KİM:  CEO, CFO, CMO, CTO ve Siz (YBS Uzmanı)              ║
 ║   📊 KONU: Q3 Satış Düşüşü ve Acil Eylem Planı                 ║
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
