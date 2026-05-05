@@ -1,0 +1,2 @@
+﻿Sorun,Kanıt,Öneri,Öncelik
+Yüksek korelasyon: tenure - TotalCharges,Korelasyon değeri 0.8259 olarak hesaplandı.,Data Prep Expert bu değişkenlerden birini modelden çıkarma veya PCA/feature selection uygulamayı değerlendirmelidir. Multicollinearity riski modelleme performansını düşürebilir.,Yüksek

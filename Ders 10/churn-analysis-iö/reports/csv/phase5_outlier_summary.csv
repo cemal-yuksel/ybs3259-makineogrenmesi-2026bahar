@@ -1,0 +1,5 @@
+﻿Değişken,Outlier Sayısı,Outlier Oranı (%),Lower Bound,Upper Bound
+SeniorCitizen,1142,16.21,0.0,0.0
+tenure,0,0.0,-60.0,124.0
+MonthlyCharges,0,0.0,-46.02,171.38
+TotalCharges,0,0.0,-4688.48,8884.67

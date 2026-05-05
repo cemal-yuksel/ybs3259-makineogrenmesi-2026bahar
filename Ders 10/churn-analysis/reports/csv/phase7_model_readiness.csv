@@ -1,0 +1,11 @@
+Kontrol,Durum,Açıklama,Öneri
+Eksik Veri Yönetimi,Hazır,TotalCharges'da %0.16 NaN var. Imputasyon: tenure × MonthlyCharges. Kritik değil.,Data Prep Expert imputasyon uygulasın.
+Encoding Gereksinimi,Gerekli,17 kategorik değişken var. Binary ve multi-class kategoriler encoding gerektirir.,"One-Hot Encoding (düşük kardinalite) veya Label Encoding. Hedef değişken (Churn) Label Encode edilmeli (Yes=1, No=0)."
+Scaling Gereksinimi,Gerekli,"Sayısal değişkenler farklı ölçeklerde (tenure: 0-72, MonthlyCharges: 18-118, TotalCharges: 18-8684).","StandardScaler veya MinMaxScaler. Tree-based modeller için gerekli değil ama Logistic Regression, SVM için zorunlu."
+Outlier İşleme,İzlenmeli,"SeniorCitizen'da %16.21 outlier (binary değişken yapısından kaynaklı, sorun değil). Diğer değişkenlerde kritik outlier yok.",Outlier işleme gerekli değil. Binary değişkenlerde outlier doğal.
+Target Imbalance,Hafif Dengesiz,"Churn: No %73.46, Yes %26.54. Hafif dengesizlik var ama kritik değil.",Stratified split zorunlu. Class weighting veya SMOTE opsiyonel (ilk model class_weight='balanced' ile dene).
+Leakage Riski,Kontrol Edildi,"customerID ID değişkeni, modellemeden çıkarılmalı. Diğer değişkenlerde leakage riski yok.",customerID çıkar.
+Train-Test Split Stratejisi,Stratified Split,"Hedef değişken dengesiz, stratified split zorunlu.","train_test_split(..., stratify=y, test_size=0.2, random_state=42)"
+Feature Engineering Fırsatları,Yüksek Potansiyel,Çok sayıda interaction ve aggregation fırsatı var.,"tenure_group, is_new_customer, contract_remaining_months, total_services_count, is_fiber_customer, is_auto_pay, average_monthly_spending vb."
+Multicollinearity,Orta Risk,"tenure ↔ TotalCharges yüksek korelasyon (r=0.826). VIF: tenure=6.33, TotalCharges=8.09.","TotalCharges çıkar, tenure kullan. Alternatif: average_monthly_spending feature'ı oluştur."
+FINAL KARAR,KISMEN HAZIR,Veri seti modelleme için kullanılabilir ama preprocessing gerekli.,"Data Prep Expert: imputasyon, encoding, scaling, feature engineering, TotalCharges çıkarma işlemlerini yapmalı. Sonra Model Expert devreye girmeli."

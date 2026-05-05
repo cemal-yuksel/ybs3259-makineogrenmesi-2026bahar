@@ -1,0 +1,3 @@
+Bileşen,Durum,Model Expert Notu
+Scaling Strategy,Pipeline'a StandardScaler eklenmelidir,Lineer modeller (LogisticRegression) için kesinlikle gerekli. Tree-based için opsiyonel ama zarar vermez.
+Preprocessing Pipeline,Hazır,"Pipeline StandardScaler içeriyor. Train data üzerinde fit edin, test data'ya transform uygulayın. Tree-based modeller için opsiyonel."

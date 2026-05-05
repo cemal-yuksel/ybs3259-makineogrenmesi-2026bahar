@@ -1,0 +1,11 @@
+﻿Bileşen,Durum,Model Expert Notu
+Veri Kalitesi,✅ Çok İyi,"Duplicate, eksik veri, outlier sorunu yok. TotalCharges leakage + multicollinearity nedeniyle çıkarıldı."
+Missing Value Strategy,✅ Tamamlandı,TotalCharges çıkarıldı (11 eksik değer sorunu otomatik çözüldü). Kalan değişkenlerde eksik veri yok.
+Encoding Strategy,✅ Tamamlandı,Binary: Label Encoding. Contract: Ordinal Encoding. Diğerleri: One-Hot Encoding (drop_first=True).
+Scaling Strategy,✅ Tamamlandı,"StandardScaler uygulandı (tenure, MonthlyCharges, SeniorCitizen). Tree-based modeller için scaling opsiyonel."
+Feature Engineering,✅ Tamamlandı,"tenure_group, MonthlyCharges_category, FiberOptic_NoSecurity interaction feature oluşturuldu."
+Imbalance Strategy,✅ SMOTE Gerekli Değil,"Churn=Yes %26.54 - makul denge. Stratified split yeterli. SMOTE kullanma, model bias yaratabilir."
+Leakage Status,✅ Temiz,TotalCharges + customerID çıkarıldı. Target encoding/SMOTE uygulanmadı. Tüm transformasyon split-aware.
+Train-Test Split,✅ Tamamlandı,"80-20 Stratified Split (random_state=42). Train: 5634, Test: 1409 satır."
+Feature Count,✅ 30 Feature,"TotalCharges çıkarıldı, 3 yeni feature eklendi. One-hot encoding dimension explosion kontrol altında."
+Önerilen Model Türleri,📋 Baseline + Tree + Ensemble,"Baseline: Logistic Regression. Tree: Random Forest, XGBoost, LightGBM. Ensemble: Voting, Stacking. En az 12 model karşılaştır."

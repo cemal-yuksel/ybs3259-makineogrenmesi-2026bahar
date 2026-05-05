@@ -1,0 +1,27 @@
+﻿Adım,İşlem
+1. Data Cleaning,TotalCharges değişkenini çıkar (leakage + multicollinearity)
+1. Data Cleaning,customerID değişkenini çıkar (identifier)
+1. Data Cleaning,Eksik değerler için strateji belirle (11 değer - çıkar veya impute et)
+2. Feature Engineering,"tenure_group oluştur (0-12: new, 13-24: medium, 25+: loyal)"
+2. Feature Engineering,"MonthlyCharges_category oluştur (low, medium, high)"
+2. Feature Engineering,Interaction features: InternetService × OnlineSecurity
+3. Encoding,"Contract için Ordinal Encoding (month-to-month=0, one year=1, two year=2)"
+3. Encoding,Diğer kategorik değişkenler için One-Hot Encoding
+3. Encoding,"Binary değişkenler için Label Encoding (gender, Partner, Dependents vb.)"
+4. Scaling,tenure için StandardScaler veya MinMaxScaler
+4. Scaling,MonthlyCharges için StandardScaler veya MinMaxScaler
+4. Scaling,Tree-based modeller için scaling opsiyonel
+5. Train-Test Split,80-20 veya 70-30 split
+5. Train-Test Split,stratify=y (Churn) kullan
+5. Train-Test Split,random_state=42 (reproducibility için)
+6. Model Selection,Baseline: Logistic Regression
+6. Model Selection,"Tree-based: Random Forest, XGBoost, LightGBM"
+6. Model Selection,"Ensemble: Voting Classifier, Stacking"
+6. Model Selection,"Karşılaştırma metriği: AUC-ROC, Precision, Recall, F1-Score"
+7. Hyperparameter Tuning,GridSearchCV veya RandomizedSearchCV
+7. Hyperparameter Tuning,Cross-validation (5-fold veya 10-fold)
+7. Hyperparameter Tuning,Early stopping (XGBoost/LightGBM için)
+8. Model Evaluation,Confusion Matrix
+8. Model Evaluation,ROC Curve ve AUC
+8. Model Evaluation,Precision-Recall Curve
+8. Model Evaluation,Feature Importance Analysis

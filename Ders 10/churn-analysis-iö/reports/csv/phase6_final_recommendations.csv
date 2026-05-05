@@ -1,0 +1,9 @@
+﻿Öncelik,Alan,Öneri,Gerekçe
+Kritik,Feature Engineering,"TotalCharges değişkenini modelden çıkar (tenure ve MonthlyCharges ile yüksek korelasyon, leakage riski)","Korelasyon 0.8259, VIF 8.08. Bağımsız bilgi taşımıyor."
+Kritik,Encoding Strategy,"Contract için Ordinal Encoding kullan (month-to-month=0, one year=1, two year=2)",Mantıksal sıra var ve churn ile doğrusal ilişki var. One-hot yerine ordinal daha efficient.
+Yüksek,Scaling,"tenure, MonthlyCharges için StandardScaler veya MinMaxScaler uygula",Farklı ölçeklerde değişkenler var. Tree-based modeller hariç gerekli.
+Yüksek,Imbalance Handling,Stratified train-test split yeterli. SMOTE gerekli değil.,Churn oranı %26.54 - makul dengede. Aggressive sampling model bias yaratabilir.
+Orta,Missing Values,TotalCharges eksik değerlerini (11 adet) tenure × MonthlyCharges ile doldur,Mantıksal ilişki var ve eksik değer sayısı çok düşük (%0.16)
+Orta,Feature Creation,"tenure_group kategorik değişkeni oluştur (0-12 ay: new, 13-24: medium, 25+: loyal)",Non-linear pattern yakalama için threshold-based segmentation faydalı olabilir
+Orta,Categorical Grouping,InternetService ile OnlineSecurity/TechSupport interaction feature oluştur,Fiber optic + No Security kombinasyonu en yüksek churn riski taşıyor
+Düşük,Feature Selection,gender ve PhoneService değişkenleri modelden çıkarılabilir (p-value > 0.05),Churn ile istatistiksel anlamlı ilişki yok. Model simplicity için çıkarma düşünülebilir

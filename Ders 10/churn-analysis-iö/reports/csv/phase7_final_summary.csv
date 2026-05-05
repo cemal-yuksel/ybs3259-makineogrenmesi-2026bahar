@@ -1,0 +1,2 @@
+﻿Veri Seti,Satır Sayısı,Sütun Sayısı,Hazırlık Durumu,Hazırlık Skoru (%),Veri Kalitesi,Öncelikli Aksiyon,Bir Sonraki Adım,Tarih
+churn.csv,7043,21,Hazır Değil,40.0,Çok Yüksek,"TotalCharges çıkar, Encoding & Scaling uygula",Data Prep Expert,2026-05-05

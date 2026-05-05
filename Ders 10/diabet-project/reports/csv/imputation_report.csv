@@ -1,0 +1,4 @@
+Değişken,Eksik Veri Sayısı (Öncesi),Median Değer,Strateji
+Glucose,5,117.0,Median Imputation
+BloodPressure,35,72.0,Median Imputation
+BMI,11,32.3,Median Imputation

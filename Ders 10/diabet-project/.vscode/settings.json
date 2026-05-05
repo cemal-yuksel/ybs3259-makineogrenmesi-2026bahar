@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cd scripts; python phase4_multivariate_analysis\\.py$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

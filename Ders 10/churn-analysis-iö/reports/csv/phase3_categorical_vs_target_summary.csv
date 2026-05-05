@@ -1,0 +1,16 @@
+﻿Değişken,Eşsiz Kategori Sayısı,chi2,p-value,Anlamlı,En Yüksek Churn Kategorisi,En Yüksek Churn Oranı (%)
+gender,2,0.4841,0.4866,Hayır,Female,26.92
+Partner,2,158.7334,0.0,Evet,No,32.96
+Dependents,2,189.1292,0.0,Evet,No,31.28
+PhoneService,2,0.915,0.3388,Hayır,Yes,26.71
+MultipleLines,3,11.3304,0.0035,Evet,Yes,28.61
+InternetService,3,732.3096,0.0,Evet,Fiber optic,41.89
+OnlineSecurity,3,849.999,0.0,Evet,No,41.77
+OnlineBackup,3,601.8128,0.0,Evet,No,39.93
+DeviceProtection,3,558.4194,0.0,Evet,No,39.13
+TechSupport,3,828.1971,0.0,Evet,No,41.64
+StreamingTV,3,374.2039,0.0,Evet,No,33.52
+StreamingMovies,3,375.6615,0.0,Evet,No,33.68
+Contract,3,1184.5966,0.0,Evet,Month-to-month,42.71
+PaperlessBilling,2,258.2776,0.0,Evet,Yes,33.57
+PaymentMethod,4,648.1423,0.0,Evet,Electronic check,45.29

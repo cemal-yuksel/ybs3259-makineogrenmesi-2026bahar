@@ -1,0 +1,2 @@
+﻿Sorun,Kanıt,Öneri,Öncelik
+SeniorCitizen değişkeninde yüksek outlier oranı,IQR yöntemine göre outlier oranı %16.21.,"Data Prep Expert winsorization, log dönüşümü, robust scaler veya outlier incelemesi yapmalıdır.",Orta

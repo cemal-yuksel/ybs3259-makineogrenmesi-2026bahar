@@ -1,0 +1,21 @@
+Model,Train Skoru,Test Skoru,CV Ortalama,CV Std,Ana Metrik,Overfitting Farkı,Eğitim Süresi,Durum
+Dummy Classifier (Baseline),0.514,0.5113,0.5113,0.0,0.5113,0.0027,0.003,Baseline
+Dummy Classifier,0.514,0.5113,0.514,0.0027,0.5113,0.0027,1.256,✅ Başarılı
+Logistic Regression,0.7741,0.7322,0.7626,0.0203,0.7322,0.0419,1.003,✅ Başarılı
+Logistic Regression (L1),0.7756,0.7322,0.7689,0.016,0.7322,0.0434,0.993,✅ Başarılı
+Logistic Regression (L2),0.7741,0.7322,0.7626,0.0203,0.7322,0.0419,1.02,✅ Başarılı
+Ridge Classifier,0.7771,0.7383,0.7671,0.0214,0.7383,0.0388,0.043,✅ Başarılı
+Linear SVC,0.7757,0.7322,0.7626,0.0179,0.7322,0.0435,0.017,✅ Başarılı
+KNN (k=5),0.8257,0.6951,0.7452,0.0187,0.6951,0.1306,0.046,✅ Başarılı
+Decision Tree,1.0,0.7095,0.6973,0.016,0.7095,0.2905,0.041,✅ Başarılı
+Random Forest,1.0,0.77,0.7547,0.0202,0.77,0.23,0.3,✅ Başarılı
+Extra Trees,1.0,0.77,0.7582,0.0144,0.77,0.23,0.26,✅ Başarılı
+Gradient Boosting,0.9322,0.7378,0.7543,0.0244,0.7378,0.1944,0.269,✅ Başarılı
+AdaBoost,0.7958,0.7391,0.7505,0.0236,0.7391,0.0567,0.228,✅ Başarılı
+Bagging,1.0,0.764,0.7315,0.0363,0.764,0.236,0.229,✅ Başarılı
+Gaussian Naive Bayes,0.7753,0.731,0.7732,0.0138,0.731,0.0443,0.017,✅ Başarılı
+SVC (RBF Kernel),0.8133,0.7317,0.754,0.022,0.7317,0.0817,0.095,✅ Başarılı
+MLP Neural Network,0.764,0.7232,0.7667,0.0109,0.7232,0.0408,0.105,✅ Başarılı
+XGBoost,1.0,0.7602,0.7374,0.0316,0.7602,0.2398,3.021,✅ Başarılı
+LightGBM,1.0,0.7473,0.7372,0.0308,0.7473,0.2527,0.48,✅ Başarılı
+CatBoost,,,,,,,,❌ Çalışmadı: The following error was raised: 'CatBoostClassifie

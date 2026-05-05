@@ -1,0 +1,4 @@
+Değişken,Churn=No Ortalama,Churn=Yes Ortalama,Ortalama Farkı,T-Statistic,P-Value,İstatistiksel Anlamlılık
+SeniorCitizen,0.13,0.25,0.12,-12.8079,0.0,Evet
+tenure,37.57,17.98,-19.59,31.5796,0.0,Evet
+MonthlyCharges,61.27,74.44,13.17,-16.5367,0.0,Evet

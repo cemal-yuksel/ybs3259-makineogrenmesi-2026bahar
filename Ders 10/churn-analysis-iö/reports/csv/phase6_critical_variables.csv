@@ -1,0 +1,6 @@
+﻿Değişken,Tip,Önem Seviyesi,Sebep,Preprocessing İhtiyacı
+tenure,Sayısal,Çok Yüksek,En güçlü prediktör. Churn/No-Churn arasında 2x fark var (18 vs 38 ay),Scaling gerekli (StandardScaler veya MinMaxScaler)
+Contract,Kategorik,Çok Yüksek,"En yüksek Chi-Square değeri (1184). Month-to-month %42.71 churn, Two year %2.83 churn",One-Hot Encoding veya Ordinal Encoding (mantıksal sıra var: month<year<two year)
+InternetService,Kategorik,Çok Yüksek,"Fiber optic %41.89 churn, DSL %18.96 churn. Güçlü discriminative power",One-Hot Encoding
+MonthlyCharges,Sayısal,Yüksek,Churn eden müşteriler $13 daha fazla ödüyor ($74.44 vs $61.27),"Scaling gerekli, outlier yok"
+PaymentMethod,Kategorik,Yüksek,"Electronic check %45.29 churn, automatic methods ~%16 churn. 3x fark",One-Hot Encoding veya Binary Encoding (automatic vs manual)

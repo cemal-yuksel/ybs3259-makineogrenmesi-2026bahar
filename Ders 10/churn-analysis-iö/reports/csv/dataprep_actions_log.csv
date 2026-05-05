@@ -1,0 +1,13 @@
+﻿Aşama,Sorun,Karar,Gerekçe,Risk
+PHASE 1,EDA Recommendation Ingestion,"Kritik: TotalCharges çıkar, Encoding uygula, Scaling uygula. Orta: Feature engineering. Düşük: Feature selection ertelendi.",EDA Expert bulgularına göre stratejik veri hazırlama planı oluşturuldu.,Düşük
+PHASE 2.1,Identifier Değişken,customerID çıkarıldı,Identifier değişkenler modelleme değeri taşımaz ve leakage riski yaratır.,Yok
+PHASE 2.2,TotalCharges Multicollinearity + Leakage,TotalCharges çıkarıldı,"VIF 8.08 (eşik: 5), tenure ile korelasyon 0.8259. Mantıksal leakage riski yüksek (TotalCharges = tenure × MonthlyCharges).",Yüksek - Çıkarmazsa model bias
+PHASE 3,Outlier & Distribution,Müdahale yapılmadı,EDA'da kritik outlier veya distribution sorunu tespit edilmedi. SeniorCitizen outlier'ları binary değişken özelliğinden kaynaklı (false positive).,Yok
+PHASE 4.1,Binary Değişken Encoding,5 binary değişkene Label Encoding uygulandı,"Binary değişkenler (Yes/No, Male/Female) için Label Encoding efficient ve yeterlidir.",Yok
+PHASE 4.2,Contract Ordinal Encoding,"Contract için Ordinal Encoding uygulandı (0: Month-to-month, 1: One year, 2: Two year)",EDA bulgusuna göre Contract churn ile linear ilişkide. Ordinal encoding bu ilişkiyi korur ve dimension explosion önler.,Düşük
+PHASE 4.3,Kategorik Değişken Encoding,9 kategorik değişkene One-Hot Encoding uygulandı (drop_first=True),Nominal kategorik değişkenler için One-Hot Encoding standart yaklaşımdır. drop_first=True ile multicollinearity önlendi.,Düşük
+PHASE 5.1,Non-linear Tenure Pattern,"tenure_group feature oluşturuldu (0-12: new, 13-24: medium, 25+: loyal)",EDA'da ilk 18 ay kritik risk periyodu olarak tespit edildi. Threshold-based segmentation non-linear pattern yakalamak için faydalı.,Düşük
+PHASE 5.2,MonthlyCharges Segmentation,"MonthlyCharges_category feature oluşturuldu (0: low, 1: medium, 2: high)",Fiyat segmentasyonu müşteri davranışında threshold effect yaratabilir.,Düşük
+PHASE 6.1,Leakage Audit,TotalCharges + customerID çıkarıldı. Target encoding/SMOTE uygulanmadı.,Leakage riski taşıyan tüm değişkenler kaldırıldı. Split-aware olmayan müdahale yapılmadı.,Yok - Leakage temiz
+PHASE 7.1,Train-Test Split,80-20 Stratified Split uygulandı (random_state=42),EDA önerisine göre stratified split yeterli. SMOTE gerekli değil (Churn=Yes %26.54 - makul denge).,Yok
+PHASE 7.2,Feature Scaling,"StandardScaler uygulandı (tenure, MonthlyCharges, SeniorCitizen)",Gradient-based ve distance-based modeller için scaling gerekli. Train-test split sonrası fit_transform ile leakage önlendi.,Yok

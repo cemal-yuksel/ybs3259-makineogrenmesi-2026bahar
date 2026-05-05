@@ -1,0 +1,17 @@
+Değişken,En Yüksek Churn Kategori,En Yüksek Churn Oranı (%),En Düşük Churn Kategori,En Düşük Churn Oranı (%),Churn Oranı Farkı (%),Chi2,P-Value,İstatistiksel Anlamlılık
+gender,Female,26.92,Male,26.16,0.76,0.4841,0.486579,Hayır
+Partner,No,32.96,Yes,19.66,13.3,158.7334,0.0,Evet
+Dependents,No,31.28,Yes,15.45,15.83,189.1292,0.0,Evet
+PhoneService,Yes,26.71,No,24.93,1.78,0.915,0.338783,Hayır
+MultipleLines,Yes,28.61,No phone service,24.93,3.68,11.3304,0.003464,Evet
+InternetService,Fiber optic,41.89,No,7.4,34.49,732.3096,0.0,Evet
+OnlineSecurity,No,41.77,No internet service,7.4,34.37,849.999,0.0,Evet
+OnlineBackup,No,39.93,No internet service,7.4,32.53,601.8128,0.0,Evet
+DeviceProtection,No,39.13,No internet service,7.4,31.73,558.4194,0.0,Evet
+TechSupport,No,41.64,No internet service,7.4,34.24,828.1971,0.0,Evet
+StreamingTV,No,33.52,No internet service,7.4,26.12,374.2039,0.0,Evet
+StreamingMovies,No,33.68,No internet service,7.4,26.28,375.6615,0.0,Evet
+Contract,Month-to-month,42.71,Two year,2.83,39.88,1184.5966,0.0,Evet
+PaperlessBilling,Yes,33.57,No,16.33,17.24,258.2776,0.0,Evet
+PaymentMethod,Electronic check,45.29,Credit card (automatic),15.24,30.05,648.1423,0.0,Evet
+TotalCharges,2812.2,100.0,74.1,0.0,100.0,6514.0478,0.553246,Hayır

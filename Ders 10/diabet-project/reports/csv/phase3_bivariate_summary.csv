@@ -1,0 +1,9 @@
+Değişken,Ortalama (0),Ortalama (1),Fark,Fark (%),Mann-Whitney U,p-value,Anlamlılık
+Pregnancies,3.3,4.87,1.57,47.5,50985.0,0.0,Çok Güçlü İlişki (p<0.001)
+Glucose,109.98,141.26,31.28,28.4,28390.5,0.0,Çok Güçlü İlişki (p<0.001)
+DiabetesPedigreeFunction,0.43,0.55,0.12,28.1,52769.0,0.0,Çok Güçlü İlişki (p<0.001)
+BMI,30.3,35.14,4.84,16.0,41866.0,0.0,Çok Güçlü İlişki (p<0.001)
+Age,31.19,37.07,5.88,18.8,41950.0,0.0,Çok Güçlü İlişki (p<0.001)
+BloodPressure,68.18,70.82,2.64,3.9,55414.5,0.0001,Çok Güçlü İlişki (p<0.001)
+SkinThickness,19.66,22.16,2.5,12.7,59814.0,0.013,Anlamlı İlişki (p<0.05)
+Insulin,68.79,100.34,31.54,45.9,61926.5,0.0657,İlişki Yok (p>=0.05)

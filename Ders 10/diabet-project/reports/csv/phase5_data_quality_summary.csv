@@ -1,0 +1,7 @@
+Metrik,Değer,Durum
+Toplam Satır,768,✓ Yeterli
+Toplam Sütun,9,✓ Normal
+Teknik Eksik Veri (NaN),0,✓ Sorun Yok
+Gizli Eksik Veri (0 değerleri - kritik),5 değişken,🚨 Kritik Sorun
+Duplicate Satır,0,✓ Sorun Yok
+Yüksek Outlier Oranı (>%5),1,⚠️ Var

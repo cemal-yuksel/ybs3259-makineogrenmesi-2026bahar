@@ -1,0 +1,5 @@
+﻿Değişken,Churn=Yes Ortalama,Churn=No Ortalama,Fark (%),t-statistic,p-value,Anlamlı
+SeniorCitizen,0.25,0.13,97.86,12.8079,0.0,Evet
+tenure,17.98,37.57,-52.14,-31.5796,0.0,Evet
+MonthlyCharges,74.44,61.27,21.51,16.5367,0.0,Evet
+TotalCharges,1531.8,2555.34,-40.06,-17.0688,0.0,Evet

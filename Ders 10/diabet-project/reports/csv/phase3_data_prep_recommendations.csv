@@ -1,0 +1,8 @@
+Sorun,Kanıt,Öneri,Öncelik
+Hedef değişkende orta düzey dengesizlik,Baskın sınıf oranı %65.10.,Data Prep Expert; stratified K-Fold CV ve class weighting kullanmalıdır.,Orta
+Pregnancies değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0000 (p<0.001).,"Feature Engineering Expert, Pregnancies değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek
+Glucose değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0000 (p<0.001).,"Feature Engineering Expert, Glucose değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek
+BloodPressure değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0001 (p<0.001).,"Feature Engineering Expert, BloodPressure değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek
+BMI değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0000 (p<0.001).,"Feature Engineering Expert, BMI değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek
+DiabetesPedigreeFunction değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0000 (p<0.001).,"Feature Engineering Expert, DiabetesPedigreeFunction değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek
+Age değişkeni hedef değişkenle çok güçlü ilişkili,Mann-Whitney U test p-value: 0.0000 (p<0.001).,"Feature Engineering Expert, Age değişkenini öne çıkarmalı ve interaction feature'lar oluşturmalıdır.",Yüksek

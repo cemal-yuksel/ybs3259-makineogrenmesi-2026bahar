@@ -1,0 +1,4 @@
+Değişken,Ortalama,Medyan,Std. Sapma,Min,Max,Skewness,Kurtosis,Outlier Sayısı,Outlier Oranı (%)
+SeniorCitizen,0.16,0.0,0.37,0.0,1.0,1.834,1.363,1142,16.21
+tenure,32.37,29.0,24.56,0.0,72.0,0.24,-1.387,0,0.0
+MonthlyCharges,64.76,70.35,30.09,18.25,118.75,-0.221,-1.257,0,0.0

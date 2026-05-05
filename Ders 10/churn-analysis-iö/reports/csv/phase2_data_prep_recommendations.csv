@@ -1,0 +1,5 @@
+﻿Sorun,Kanıt,Öneri,Öncelik
+TotalCharges değişkeninde eksik veri,TotalCharges değişkeninde 11 adet eksik değer tespit edildi.,Data Prep Expert tenure ve MonthlyCharges kullanarak imputasyon stratejisi geliştirmelidir.,Orta
+SeniorCitizen değişkeninde yüksek çarpıklık,Skewness değeri 1.83 olarak hesaplandı.,"Data Prep Expert log, Box-Cox veya Yeo-Johnson dönüşümü değerlendirmelidir.",Orta
+SeniorCitizen değişkeninde yüksek outlier oranı,IQR yöntemine göre outlier oranı %16.21.,"Data Prep Expert winsorization, log dönüşümü veya robust scaler değerlendirmelidir.",Orta
+PhoneService değişkeninde aşırı dengesizlik,Baskın kategori oranı %90.32.,Data Prep Expert bu değişkenin modellemeye katkısını değerlendirmeli veya özel encoding stratejisi uygulamalıdır.,Düşük

@@ -1,0 +1,16 @@
+Phase,Sorun,Karar,Gerekçe,Risk
+PHASE 1,EDA Recommendation Ingestion,9 adet EDA önerisi doğrulandı ve kabul edildi,Tüm öneriler teknik olarak geçerli ve uygulanabilir,Düşük
+PHASE 2,TotalCharges - 11 NaN (%0.16),Imputasyon: tenure × MonthlyCharges,Domain mantıklı: Toplam ücret = Müşteri süresi × Aylık ücret,Düşük
+PHASE 2,customerID - ID değişkeni,customerID drop edildi,"Her satır unique - model bu değişkenden öğrenemez, leakage riski var",Düşük
+PHASE 2,tenure ↔ TotalCharges yüksek korelasyon (0.826),"TotalCharges drop edildi, tenure kullanıldı","Multicollinearity riski, tenure daha fundamental değişken",Düşük
+PHASE 2,Duplicate satır kontrolü,27 duplicate satır,27 satır silindi,Düşük
+PHASE 3,SeniorCitizen - yüksek skewness (1.834) ve outlier (%16.21),Dönüşüm uygulanmadı,"Binary değişken (0/1) - outlier ve skewness doğal, dönüşüm anlamsız",Düşük
+PHASE 3,"Sayısal değişken dağılımları (tenure, MonthlyCharges)",Dönüşüm uygulanmadı,"Skewness değerleri kabul edilebilir, dağılımlar business mantıklı",Düşük
+PHASE 4,Hedef değişken encoding (Churn: Yes/No),"Label Encoding: Yes=1, No=0",Binary classification için standart encoding,Düşük
+PHASE 4,17 kategorik değişken encoding,"Binary: Label Encoding, Multi-class: One-Hot Encoding (drop_first=True)","Standart encoding stratejisi, multicollinearity önleme için drop_first=True",Düşük
+PHASE 4,Sayısal değişken scaling,StandardScaler - train-test split SONRASINDA uygulanacak,Leakage önleme için split sonrası scaling zorunlu,Düşük
+PHASE 5,Feature Engineering,10 yeni feature oluşturuldu,EDA bulgularına dayanarak domain-driven feature engineering,Düşük
+PHASE 6,Data leakage kontrolü,Leakage riski yok,"customerID ve TotalCharges çıkarıldı, diğer değişkenler temiz",Düşük
+PHASE 6,Feature selection,Tüm feature'lar Model Expert'e aktarıldı,"Model Expert feature importance, correlation ve VIF ile seçim yapacak",Düşük
+PHASE 7,Train-test split,"Stratified split (80-20), random_state=42","Target dengesiz, stratified split zorunlu",Düşük
+PHASE 7,Sayısal değişken scaling,"StandardScaler - Train fit, Train+Test transform","Leakage önleme, Linear/SVM modeller için zorunlu",Düşük

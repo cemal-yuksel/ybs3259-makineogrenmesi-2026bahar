@@ -1,0 +1,9 @@
+Sorun,Kanıt,Öneri,Öncelik
+Glucose değişkeninde düşük oranda gizli eksik veri,0 değer oranı: %0.65. Bu değişkende 0 değeri mantıksal olarak imkansızdır.,"Data Prep Expert, Glucose için 0 değerlerini NaN'a dönüştürüp median imputation yapmalıdır.",Düşük
+BloodPressure değişkeninde düşük oranda gizli eksik veri,0 değer oranı: %4.56. Bu değişkende 0 değeri mantıksal olarak imkansızdır.,"Data Prep Expert, BloodPressure için 0 değerlerini NaN'a dönüştürüp median imputation yapmalıdır.",Düşük
+SkinThickness değişkeninde yüksek oranda gizli eksik veri,0 değer oranı: %29.56. Bu değişkende 0 değeri mantıksal olarak imkansızdır.,"Data Prep Expert, SkinThickness için 0 değerlerini NaN'a dönüştürüp IterativeImputer veya KNN Imputer kullanmalıdır. Alternatif olarak değişken modelden çıkarılabilir.",Yüksek
+Insulin değişkeninde çok yüksek oranda gizli eksik veri,0 değer oranı: %48.70. Bu değişkende 0 değeri mantıksal olarak imkansızdır.,"Data Prep Expert, Insulin için iki alternatif değerlendirmelidir:
+  1. Bu değişkeni modelden çıkar (önerilen)
+  2. İleri imputasyon (IterativeImputer) uygula, ancak overfitting riski yüksek.",Yüksek
+BMI değişkeninde düşük oranda gizli eksik veri,0 değer oranı: %1.43. Bu değişkende 0 değeri mantıksal olarak imkansızdır.,"Data Prep Expert, BMI için 0 değerlerini NaN'a dönüştürüp median imputation yapmalıdır.",Düşük
+BloodPressure değişkeninde yüksek outlier oranı,IQR yöntemine göre outlier oranı %5.86 (eşik: %5).,"Data Prep Expert, BloodPressure için winsorization (%5-95 aralığına kırpma), log dönüşümü veya RobustScaler kullanmalıdır.",Orta

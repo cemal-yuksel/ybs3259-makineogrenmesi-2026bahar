@@ -1,0 +1,8 @@
+﻿Öncelik,Sorun,EDA Önerisi,DataPrep Kararı,Gerekçe
+Kritik,TotalCharges Multicollinearity ve Leakage,TotalCharges değişkenini modelden çıkar,UYGULA - TotalCharges çıkarılacak,Leakage riski + multicollinearity. TotalCharges = tenure × MonthlyCharges mantıksal ilişkisi model bias yaratır.
+Kritik,Encoding Gereksinimi,"Contract ordinal, diğerleri one-hot",UYGULA - Ordinal + One-Hot + Label Encoding,Contract mantıksal sıralı (month-to-month < one year < two year). Binary değişkenler label encoding alacak.
+Yüksek,Scaling Gereksinimi,StandardScaler veya MinMaxScaler,UYGULA - StandardScaler (linear modeller için),Farklı ölçekler gradient-based ve distance-based modelleri etkiler.
+Yüksek,Missing Values,tenure × MonthlyCharges ile doldur veya çıkar,REDDET - TotalCharges zaten çıkarılacak,"TotalCharges multicollinearity nedeniyle silinecek, eksik veri sorunu otomatik çözülüyor."
+Orta,Feature Engineering,"tenure_group (0-12: new, 13-24: medium, 25+: loyal)",UYGULA - tenure_group + MonthlyCharges_category oluşturulacak,Threshold-based segmentation non-linear pattern yakalama için faydalı.
+Orta,Interaction Features,InternetService × OnlineSecurity interaction,UYGULA - Interaction feature oluşturulacak,EDA'da fiber optic kullanıcılarının churn oranı %41.89 - interaction yakalanmalı.
+Düşük,Zayıf Değişkenler,Bu değişkenler çıkarılabilir,ERTELE - Model Expert feature selection yapacak,Bu kararı model performans karşılaştırması sonrası vermek daha mantıklı.

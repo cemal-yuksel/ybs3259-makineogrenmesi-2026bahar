@@ -1,0 +1,3 @@
+Sorun,Kanıt,Öneri,Öncelik
+TotalCharges - NaN değerler,11 satırda TotalCharges NaN (%0.16),"Data Prep Expert imputasyon stratejisi belirlemelidir (median, forward fill veya tenure × MonthlyCharges hesaplama).",Yüksek
+Yüksek korelasyon: tenure ↔ TotalCharges,Korelasyon katsayısı: 0.826,Data Prep Expert multicollinearity riski için VIF analizi yapmalı ve değişken seçimi değerlendirmelidir.,Yüksek

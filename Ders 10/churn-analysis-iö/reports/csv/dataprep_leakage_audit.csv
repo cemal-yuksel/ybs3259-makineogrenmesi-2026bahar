@@ -1,0 +1,5 @@
+﻿Kontrol,Durum,Risk
+TotalCharges çıkarıldı mı?,✅ Evet,Yok
+customerID çıkarıldı mı?,✅ Evet,Yok
+Target encoding split sonrası mı?,✅ Uygulanmadı (gerek yok),Yok
+SMOTE split sonrası mı?,✅ Uygulanmadı (gerek yok),Yok

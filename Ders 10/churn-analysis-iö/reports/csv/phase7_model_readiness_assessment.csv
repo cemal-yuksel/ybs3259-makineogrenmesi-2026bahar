@@ -1,0 +1,11 @@
+﻿Kriter,Durum,Açıklama,Aksiyon
+Eksik Veri Yönetimi,✅ Hazır,Sadece TotalCharges'da 11 eksik değer var (%0.16). Çok düşük oran.,TotalCharges'ı modelden çıkar (multicollinearity) veya tenure × MonthlyCharges ile doldur.
+Encoding Gereksinimi,⚠️ Gerekli,"15 kategorik değişken var. gender, Partner, Contract, InternetService vb.",One-Hot Encoding veya Ordinal Encoding (Contract için) uygulanmalı.
+Scaling Gereksinimi,⚠️ Gerekli,"tenure (0-72), MonthlyCharges ($18-118) farklı ölçeklerde.",StandardScaler veya MinMaxScaler uygulanmalı (tree-based modeller hariç).
+Outlier Yönetimi,✅ Hazır,SeniorCitizen hariç outlier sorunu yok. SeniorCitizen binary değişken.,Outlier handling gerekli değil.
+Target Imbalance,✅ Hazır,"Churn=No: %73.46, Churn=Yes: %26.54. Makul dengede.",Stratified split yeterli. SMOTE/ADASYN gerekli değil.
+Leakage Riski,⚠️ Dikkat,TotalCharges = tenure × MonthlyCharges ilişkisi var. Leakage riski yüksek.,TotalCharges kesinlikle modelden çıkarılmalı.
+Train-Test Split Stratejisi,⚠️ Planlama Gerekli,7043 satır var. Stratified split uygulanmalı.,"80-20 veya 70-30 split, stratify=y (Churn) ile yapılmalı."
+Feature Selection İhtiyacı,⚠️ Opsiyonel,gender ve PhoneService churn ile anlamlı ilişkiye sahip değil (p>0.05).,Model simplicity için bu değişkenler çıkarılabilir veya korunabilir.
+Multicollinearity,⚠️ Dikkat,tenure ve TotalCharges korelasyonu 0.8259. VIF: 8.08 ve 6.32.,TotalCharges çıkarılmalı veya regularization (Ridge/Lasso) kullanılmalı.
+Veri Kalitesi,✅ Çok İyi,"Duplicate yok, negatif değer yok, tutarlılık sorunları yok.",Veri kalitesi açısından ek işlem gerekli değil.
