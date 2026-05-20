@@ -1,0 +1,12 @@
+Bileşen,Durum,Model Expert Notu
+Veri Durumu,✅ Temiz,"7,043 satır, 0 duplicate, 0 eksik değer. Model-ready."
+Missing Value Strategy,✅ Tamamlandı,TotalCharges 11 NaN impute edildi (tenure × MonthlyCharges).
+Encoding Strategy,✅ Tamamlandı,"Binary: Label Encoding, Multi-class: One-Hot (drop_first=True). Hedef: Yes=1, No=0."
+Scaling Strategy,✅ Tamamlandı,"StandardScaler uygulandı (Train fit, Train+Test transform). Linear/SVM için hazır."
+Feature Engineering,✅ Tamamlandı,"10 yeni feature oluşturuldu: tenure_group, is_new_customer, total_services_count, is_fiber_customer, is_auto_pay, vb."
+Imbalance Strategy,⚠️ Hafif Dengesiz,"Target: 73.46% No, 26.54% Yes. İlk model class_weight='balanced' ile dene. Gerekirse SMOTE."
+Leakage Status,✅ Yok,customerID ve TotalCharges çıkarıldı. Tüm feature'lar temiz.
+Train-Test Split,✅ Stratified,"80-20 split, stratified=True, random_state=42. Target dağılımları korundu."
+Önerilen Model Türleri,🎯 Strateji,"1) Logistic Regression (baseline), 2) Random Forest, 3) XGBoost, 4) LightGBM. Tree-based modeller dengesizlikle başa çıkabilir."
+Kritik Uyarılar,⚠️ Dikkat,"1) Hedef hafif dengesiz - class_weight='balanced' kullan. 2) Feature importance analizi yap. 3) Top 3 predictor: Contract, tenure, InternetService."
+Feature Sayısı,📊 42 feature,Orijinal: 18 → Feature Engineering sonrası: 42 → Final (encoding sonrası): 42

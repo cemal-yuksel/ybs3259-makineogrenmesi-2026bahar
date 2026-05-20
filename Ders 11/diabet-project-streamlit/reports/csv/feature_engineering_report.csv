@@ -1,0 +1,15 @@
+Feature,Tip
+Pregnancies,Original
+Glucose,Original
+BloodPressure,Original
+BMI,Original
+DiabetesPedigreeFunction,Original
+Age,Original
+High_Glucose,Binary
+High_BMI,Binary
+Old_Age,Binary
+Many_Pregnancies,Binary
+BMI_Age,Interaction
+Glucose_BMI,Interaction
+Glucose_Age,Interaction
+BMI_DiabetesPedigreeFunction,Interaction

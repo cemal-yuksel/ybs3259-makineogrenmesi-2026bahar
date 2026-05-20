@@ -1,0 +1,14 @@
+Aşama,Sorun,Karar,Gerekçe,Risk
+PHASE 1,EDA önerileri değerlendirildi,"8 öneri doğrulandı, hepsi uygulanacak","EDA bulguları tutarlı, mantıksal ve istatistiksel olarak destekleniyor",Düşük
+PHASE 2.1,Gizli eksik veri (0 değerleri),"Glucose, BloodPressure, BMI için 0 → NaN dönüşümü uygulandı",Tıbbi ölçümlerde 0 değeri mantıksal olarak imkansız,Düşük
+PHASE 2.2,Insulin (%48.7) ve SkinThickness (%29.6) yüksek eksik veri,İki değişken modelden çıkarıldı,"Kritik eşik (%30) üzerinde, istatistiksel anlamlılık zayıf/yok, overfitting riski yüksek",Düşük - Bu değişkenler zayıf öngörücüler
+PHASE 2.3,Düşük oranda eksik veri (<%5),"Glucose, BloodPressure, BMI için median imputation uygulandı","Eksik veri oranı düşük, median robust ve güvenli bir yöntem",Düşük
+PHASE 3.1,BloodPressure yüksek outlier oranı (%5.86),Winsorization (5%-95%) uygulandı,"Kritik eşiği hafif aşıyor, winsorization güvenli ve veri kaybı yok",Düşük
+PHASE 3.2,"Çarpıklık (DiabetesPedigreeFunction: 1.920, Age: 1.130)",Yeo-Johnson dönüşümü tüm sayısal değişkenlere uygulandı,"Lineer modeller için faydalı, çarpıklığı azaltır, tree-based modellere zarar vermez",Düşük
+PHASE 4.1,Kategorik değişken encoding,Uygulanmadı - Kategorik değişken yok,Veri setindeki tüm değişkenler sayısal,Yok
+PHASE 4.2,Feature scaling,Pipeline içinde StandardScaler kullanılacak,"Değişkenler farklı ölçeklerde (Glucose: 0-199, Age: 21-81), lineer modeller için gerekli",Düşük
+PHASE 5.1,Binary feature generation,"4 binary feature oluşturuldu (High_Glucose, High_BMI, Old_Age, Many_Pregnancies)","EDA'da Glucose, BMI, Age güçlü öngörücüler, eşik bazlı binary features model performansını artırabilir",Düşük - Tree-based modeller için faydalı
+PHASE 5.2,Interaction feature generation,4 interaction feature oluşturuldu,"EDA'da güçlü değişkenler arası etkileşim potansiyeli, lineer modeller için non-lineer ilişkileri yakalayabilir","Orta - Multicollinearity riskini artırabilir, feature selection ile kontrol edilmeli"
+PHASE 6.1,Yüksek multicollinearity,Model Expert feature selection yapmalı veya regularization kullanmalı,"3 değişken çifti |r| > 0.90, VIF kontrolü önerilir",Orta
+PHASE 6.2,Data leakage kontrolü,Leakage riski yok,Hiçbir feature target ile |r| > 0.95 korelasyona sahip değil,Yok
+PHASE 7.1,Train-test split stratejisi,Stratified split (80-20) uygulandı,"Class imbalance (%65-35) nedeniyle stratified split şart, test setinde de oran korundu",Yok

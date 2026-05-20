@@ -1,0 +1,2 @@
+model_name,test_f1_score,cv_mean,cv_std,overfitting_gap,training_time,roc_auc,feature_count,train_samples,test_samples
+Random Forest,0.77,0.7547,0.0202,0.23,0.3,0.8306481481481482,14,614,154

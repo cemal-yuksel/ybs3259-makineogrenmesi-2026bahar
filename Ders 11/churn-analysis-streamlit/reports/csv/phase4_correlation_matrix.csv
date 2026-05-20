@@ -1,0 +1,5 @@
+,SeniorCitizen,tenure,MonthlyCharges,TotalCharges
+SeniorCitizen,1.0,0.017,0.22,0.102
+tenure,0.017,1.0,0.248,0.826
+MonthlyCharges,0.22,0.248,1.0,0.651
+TotalCharges,0.102,0.826,0.651,1.0

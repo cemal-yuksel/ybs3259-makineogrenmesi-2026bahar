@@ -1,0 +1,4 @@
+Sorun,Kanıt,Öneri,Öncelik
+SeniorCitizen - Yüksek çarpıklık,Skewness: 1.834,"Log, Box-Cox veya Yeo-Johnson dönüşümü değerlendirilmelidir.",Orta
+SeniorCitizen - Yüksek outlier oranı,Outlier oranı: %16.21,"Winsorization, robust scaler veya log dönüşümü değerlendirilmelidir.",Orta
+TotalCharges - Yüksek kardinalite,Eşsiz kategori sayısı: 6531,"Rare label encoding, target encoding veya frequency encoding değerlendirilmelidir.",Yüksek

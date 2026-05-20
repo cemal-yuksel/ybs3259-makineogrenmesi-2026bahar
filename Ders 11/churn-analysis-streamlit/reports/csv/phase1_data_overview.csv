@@ -1,0 +1,22 @@
+Değişken,Veri Tipi,Eksik Değer,Eksik Oran (%),Eşsiz Değer,Kardinalite (%)
+customerID,object,0,0.0,7043,100.0
+gender,object,0,0.0,2,0.03
+SeniorCitizen,int64,0,0.0,2,0.03
+Partner,object,0,0.0,2,0.03
+Dependents,object,0,0.0,2,0.03
+tenure,int64,0,0.0,73,1.04
+PhoneService,object,0,0.0,2,0.03
+MultipleLines,object,0,0.0,3,0.04
+InternetService,object,0,0.0,3,0.04
+OnlineSecurity,object,0,0.0,3,0.04
+OnlineBackup,object,0,0.0,3,0.04
+DeviceProtection,object,0,0.0,3,0.04
+TechSupport,object,0,0.0,3,0.04
+StreamingTV,object,0,0.0,3,0.04
+StreamingMovies,object,0,0.0,3,0.04
+Contract,object,0,0.0,3,0.04
+PaperlessBilling,object,0,0.0,2,0.03
+PaymentMethod,object,0,0.0,4,0.06
+MonthlyCharges,float64,0,0.0,1585,22.5
+TotalCharges,object,0,0.0,6531,92.73
+Churn,object,0,0.0,2,0.03

@@ -1,0 +1,10 @@
+Bileşen,Kanıt,Öneri
+Final Model,"20. Calibrated Classifier, Test F1: 0.7917, ROC-AUC: 0.8404",SHAP veya LIME ile feature importance analizi. Tree-based model ise native feature_importances_ kullan.
+Hata Analizi,"FN=187, FP=91. FN business kritik (müşteri kaybı).",SHAP force plot ile FN örneklerini incele. Hangi feature'lar churn tahminini kaçırıyor?
+Top Features,"DataPrep: Contract, tenure, InternetService en güçlü predictor'lar",Bu feature'ların model içindeki etkisini SHAP ile doğrula. Interaction effects var mı?
+Model Type,20. Calibrated Classifier - Linear/Non-parametric,Tree-based: Feature importance + SHAP. Linear: Coefficient analizi. Non-parametric: LIME.
+Final Model Dosyası,models/final_model.pkl + preprocessing_pipeline.pkl,Pipeline: Load preprocessing → Transform input → Load model → Predict. Streamlit app için hazır.
+Input Schema,42 feature (42 scaled numeric/encoded categorical),Streamlit: User input → Feature engineering → Preprocessing → Prediction. Churn probability + risk score göster.
+Output Format,Binary classification: 0 (No - Kaldı) / 1 (Yes - Ayrıldı) + probability,Deployment: Class label + confidence score + retention recommendation. Threshold tuning (precision-recall trade-off).
+Monitoring,"Test F1: 0.7917, Baseline beklentisi","Production: Data drift monitoring (feature distribution), prediction drift (churn rate), performance degradation (F1 < 0.75 alarm)."
+Business Impact,"FN cost: $561,000, FP cost: $4,550, Total: $565,550",Deployment: Cost-benefit dashboard. Threshold optimization için business cost fonksiyonu.

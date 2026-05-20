@@ -1,0 +1,18 @@
+Değişken,Eşsiz Kategori,Baskın Kategori,Baskın Oran (%),En Az Frekans,En Çok Frekans
+gender,2,Male,50.48,3488,3555
+Partner,2,No,51.7,3402,3641
+Dependents,2,No,70.04,2110,4933
+PhoneService,2,Yes,90.32,682,6361
+MultipleLines,3,No,48.13,682,3390
+InternetService,3,Fiber optic,43.96,1526,3096
+OnlineSecurity,3,No,49.67,1526,3498
+OnlineBackup,3,No,43.84,1526,3088
+DeviceProtection,3,No,43.94,1526,3095
+TechSupport,3,No,49.31,1526,3473
+StreamingTV,3,No,39.9,1526,2810
+StreamingMovies,3,No,39.54,1526,2785
+Contract,3,Month-to-month,55.02,1473,3875
+PaperlessBilling,2,Yes,59.22,2872,4171
+PaymentMethod,4,Electronic check,33.58,1522,2365
+TotalCharges,6531,20.2,0.16,1,11
+Churn,2,No,73.46,1869,5174

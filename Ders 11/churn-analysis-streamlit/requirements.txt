@@ -1,0 +1,23 @@
+# Churn Risk Değerlendirme Platformu - Gereksinimler
+# Python 3.8+
+
+# Core Streamlit
+streamlit>=1.28.0
+
+# Data Science & ML
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+
+# Visualization
+plotly>=5.17.0
+kaleido>=0.2.1
+
+# Model Libraries (optional - eğer modeliniz kullanıyorsa)
+xgboost>=2.0.0
+lightgbm>=4.1.0
+catboost>=1.2.0
+
+# Utilities
+python-dateutil>=2.8.2
